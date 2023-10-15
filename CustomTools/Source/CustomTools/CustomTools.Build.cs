@@ -25,7 +25,10 @@ public class CustomTools : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core",
+				"Core", 
+				"Sockets",
+				"WebSockets",
+				"Networking",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -39,9 +42,6 @@ public class CustomTools : ModuleRules
 				"Slate",
 				"SlateCore",
 				// ... add private dependencies that you statically link with here ...	
-				"Sockets",
-				"WebSockets",
-				"Networking"
 			}
 			);
 		

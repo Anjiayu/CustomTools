@@ -5,9 +5,6 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-DEFINE_LOG_CATEGORY_STATIC(NetParticipant, Log, All);
-
-
 class FCustomToolsModule : public IModuleInterface
 {
 public:
